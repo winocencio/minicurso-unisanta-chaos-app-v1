@@ -4,7 +4,7 @@ const app = express();
 const port = 8080; 
 
 // --- Chaos Configuration ---
-const CHAOS_PROBABILITY = 0.20;       // 20% chance to trigger chaos
+const CHAOS_PROBABILITY = 0;       // 20% chance to trigger chaos
 const MAX_CHAOS_SIZE = 10 * 1024 * 1024; // Allocate 10MB of data (Memory Consumption)
 const MAX_ITERATIONS = 5000000;      // 5 million iterations (CPU Consumption)
 
