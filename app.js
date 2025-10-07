@@ -102,5 +102,5 @@ app.get('/api/data', async (req, res) => {
 
 // Cloud Run expects the application to listen on the port specified by the PORT environment variable (default 8080).
 app.listen(port, () => {
-    console.log(`App listening on port ${port}`);
+    console.log(`App Started -> listening on port ${port}`);
 });
